@@ -1,0 +1,9 @@
+# CLI is the source of truth; these values document the proposed starting run.
+weights: yolov8n.pt
+epochs: 30
+imgsz: 640
+batch: 8
+seed: 42
+device: '0'
+workers: 4
+# Tang Laptop RTX 4090 16GB; actual max batch must be benchmarked.

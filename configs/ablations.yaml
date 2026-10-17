@@ -1,0 +1,16 @@
+# Training/evaluation matrices, not yet executed.
+experiments:
+  B0: {method: supervised_only, description: 'Human-labeled train only'}
+  B1: {method: confidence, description: 'Simple high-confidence pseudo-labels'}
+  B2: {method: teacher_student, description: 'EMA teacher-student training (planned)'}
+  B3: {method: temporal, description: 'Track length and class consistency'}
+  B4: {method: temporal_uncertainty, description: 'Temporal and uncertainty gate'}
+  B5: {method: human_in_loop, description: 'Human review under fixed budget (planned)'}
+metrics:
+  - map_50_95
+  - pedestrian_recall
+  - rider_recall
+  - pseudo_precision
+  - pseudo_recall
+  - review_minutes_per_100_frames
+seeds: [42, 2026, 2027]

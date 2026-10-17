@@ -1,0 +1,11 @@
+method: temporal
+accept_threshold: 0.78
+review_threshold: 0.48
+min_track_frames: 3
+high_conf_shortcut: 0.97
+critical_classes: [0, 1, 6, 7]
+weight_confidence: 0.45
+weight_support: 0.25
+weight_class_agreement: 0.15
+weight_area_stability: 0.15
+penalty_uncertainty: 0.10

@@ -1,0 +1,2 @@
+{"video_id":"clip_demo","frame_index":0,"image_path":"/absolute/path/to/clip_demo/000000.jpg","width":1280,"height":720,"source_split":"train","detections":[{"bbox":{"x1":360.0,"y1":210.0,"x2":440.0,"y2":320.0},"class_id":2,"confidence":0.92,"track_id":10}]}
+{"video_id":"clip_demo","frame_index":1,"image_path":"/absolute/path/to/clip_demo/000001.jpg","width":1280,"height":720,"source_split":"train","detections":[{"bbox":{"x1":363.0,"y1":208.0,"x2":444.0,"y2":319.0},"class_id":2,"confidence":0.91,"track_id":10}]}

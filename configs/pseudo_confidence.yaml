@@ -1,0 +1,6 @@
+method: confidence
+accept_threshold: 0.78
+review_threshold: 0.48
+min_track_frames: 3
+high_conf_shortcut: 0.97
+critical_classes: [0, 1, 6, 7]
